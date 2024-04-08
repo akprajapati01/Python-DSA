@@ -1,6 +1,16 @@
-def fact(n):
+# def fact(n):
+#     if(n==0):
+#         return 1
+#     return n*fact(n-1)
+
+def factorial(n):
     if(n==0):
         return 1
-    return n*fact(n-1)
-f=fact(5)
-print(f)
+    small = factorial(n-1)
+    return n*small 
+  
+# f=fact(5)
+# print(f)
+
+n=int(input())
+print(factorial(n))
