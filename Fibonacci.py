@@ -1,4 +1,4 @@
-def fibo(n):
+def fibo(n):  #Fibonacci series
     if (n==1):    #we assume first element to be 1
         return 1
     fib_n_1 = fibo(n-1)
