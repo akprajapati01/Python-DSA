@@ -3,5 +3,10 @@ def fibo(n):  #Fibonacci series
         return 1
     fib_n_1 = fibo(n-1)
     fib_n_2 = fibo(n-2)
+    output = fib_n_1+fib_n_2
+    return output
+
+n=3
+print(fibo(n))
     
 
