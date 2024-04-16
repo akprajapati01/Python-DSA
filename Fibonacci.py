@@ -6,7 +6,7 @@ def fibo(n):  #Fibonacci series
     output = fib_n_1+fib_n_2
     return output
 
-n=3
+n=int(input())
 print(fibo(n))
     
 
