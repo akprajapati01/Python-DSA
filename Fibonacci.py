@@ -6,7 +6,7 @@ def fibo(n):  #Fibonacci series
     output = fib_n_1+fib_n_2
     return output
 
-n=5
+n=10
 print(fibo(n))
     
 
