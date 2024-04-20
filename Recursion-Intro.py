@@ -2,6 +2,8 @@
 #     if(n==0):
 #         return 1
 #     return n*fact(n-1)
+import sys
+sys.setrecursionlimit(1000)
 
 def factorial(n):
     if(n==0):
