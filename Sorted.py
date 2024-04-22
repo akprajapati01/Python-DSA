@@ -1,4 +1,4 @@
-def isSorted(a):
+def isSorted(a): #this check for the if the element is sorted or not 
     l = len(a)
     if(l == 0 or l == 1):
         return True
