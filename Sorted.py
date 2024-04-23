@@ -4,7 +4,7 @@ def isSorted(a): #this check for the if the element is sorted or not
         return True
     if a[0] > a[1] :
         return False
-    Smaller = b[1:]
+    Smaller = a[1:]
     isSmallersorted = isSorted(Smaller)
     #retuen isSmallersorted
     if isSmallersorted:
@@ -12,5 +12,5 @@ def isSorted(a): #this check for the if the element is sorted or not
     else:
         return False
     
-a = [1,2,3,4,5,6]
-isSorted(a)
+a = [1,2,3,4,35,6]
+print(isSorted(a))
