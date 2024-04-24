@@ -6,11 +6,11 @@ def isSorted(a): #this check for the if the element is sorted or not
         return False
     Smaller = a[1:]
     isSmallersorted = isSorted(Smaller)
-    #retuen isSmallersorted
-    if isSmallersorted:
-        return True
-    else:
-        return False
+    return isSmallersorted
+    # if isSmallersorted:
+    #     return True
+    # else:
+    #     return False
     
-a = [1,2,3,4,35,6]
+a = [1,2,3,4,5,6]
 print(isSorted(a))
