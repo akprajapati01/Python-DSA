@@ -1,4 +1,4 @@
-def firstIndex(a,x):
+def firstIndex(a,x):  #This is Used to find the index of first element is given number is found
     l = len(a)
     if l == 0:
         return -1
