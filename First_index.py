@@ -7,4 +7,7 @@ def firstIndex(a,x):  #This is Used to find the index of first element is given 
 
     smalllist = a[1:]
     lo = sl(smalllist,x)  #x is the searching element
-    
+    if lo == -1:
+        return -1
+    else:
+        return +1
