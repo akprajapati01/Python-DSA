@@ -11,8 +11,8 @@ def factorial(n):
     small = factorial(n-1)
     return n*small 
   
-# f=fact(5)
-# print(f)
+f=fact(5)
+print(f)
 
 n=int(input())
 print(factorial(n))
