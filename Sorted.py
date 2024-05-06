@@ -10,7 +10,7 @@ def isSorted(a): #this check for the if the element is sorted or not
     # if isSmallersorted:
     #     return True
     # else:
-    #     return False
+    #     return False         #this is bit larger in size by using  conditional operator
     
 # a = [1,2,3,4,5,6]
 a = [9,8,7,6,5,4,3,2,1]  #This  Code work only for accescending order srted list
