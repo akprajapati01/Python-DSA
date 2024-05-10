@@ -3,11 +3,7 @@ def odprint(n):
         return 0
     if(n == 1):
         return 1
-    smallout = odprint(n-2)
-    return (smallout + n)
-   
+    smallout = odprint(n-1)
+    largeout = odprint(n-2)
+    return (smallout + largeout)
 
-# n=int(input())
-# print(odprint(n))
-n=5
-print(odprint(n))
