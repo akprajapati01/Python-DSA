@@ -8,5 +8,5 @@ def odprint(n):
     return largeout+n
 
 n=int(input())
-print(odprint(n))
+print(odprint(n))   #This give the sum of all the odd number till input
 
