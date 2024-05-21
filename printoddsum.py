@@ -5,8 +5,6 @@ def odprint(n):
             return 1
             largeout = odprint(n-2)
             return largeout+n
-#  largeout = odprint(n-2)
-    # return largeout+n
 
 
 n=int(input())
