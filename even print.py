@@ -7,5 +7,5 @@ def evenprint(n):
         largeout = evenprint(n-2)
         return largeout+n
 
-n=int(input())
+n=int(input())  #This is used to take input from user
 print(evenprint(n))  #This print Sum of all the even number upto th given input number
