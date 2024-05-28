@@ -5,7 +5,7 @@ def evenprint(n):
         if(n == 1):
             return 1
         largeout = evenprint(n-2)
-        return largeout+n
+        return largeout+n  #this return thr desired output
 
 n=int(input()) #This take input from the user
 print(evenprint(n))  #This print Sum of all the even number upto th given input number
